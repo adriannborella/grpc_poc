@@ -1,6 +1,6 @@
 import grpc
-import calculator_pb2
-import calculator_pb2_grpc
+from grpc_poc_client import calculator_pb2
+from grpc_poc_client import calculator_pb2_grpc
 
 
 def sumFunction(num1, num2):

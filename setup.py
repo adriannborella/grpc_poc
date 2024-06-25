@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="grpc_client_poc",
-    version="0.1",
+    name="grpc_poc_client",
+    version="0.1.3",
     packages=find_packages(),
     install_requires=["grpcio", "grpcio-tools", "protobuf"],
     include_package_data=True,
